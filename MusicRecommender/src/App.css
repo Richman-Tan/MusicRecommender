@@ -1,0 +1,59 @@
+.dashboard {
+  display: flex;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.right-sidebar {
+  width: 250px;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.track-list {
+  margin-top: 20px;
+}
+
+.track-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.track-info {
+  display: flex;
+}
+
+.track-info img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.track-controls {
+  display: flex;
+  align-items: center;
+}
+
+.track-controls button {
+  margin-right: 10px;
+}
+
+.ads {
+  height: 100px;
+  background-color: #ddd;
+  text-align: center;
+  line-height: 100px;
+}
